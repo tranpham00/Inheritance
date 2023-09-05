@@ -38,6 +38,6 @@ public class GradStudent extends Student{
     // @override
     public String toString()
     {
-        return super.toString() + "Office: " + getOffice() + "Office Hours: " + getOfficeHours();
+        return super.toString() + " Office: " + getOffice() + " Office Hours: " + getOfficeHours();
     }
 }

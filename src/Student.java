@@ -42,6 +42,6 @@ public class Student {
 
     public String toString()
     {
-        return "Name: " + getName() + "GPA: " + getGPA() + "ID: " + getID();
+        return "Name: " + getName() + " GPA: " + getGPA() + " ID: " + getID();
     }
 }
