@@ -13,7 +13,7 @@ public class App {
         andy.setID("2355");
         harbert.setID("3366");
 
-        ArrayList<Student> roster = new ArrayList();
+        ArrayList<Student> roster = new ArrayList<Student>();
 
         roster.add(cameron);
         roster.add(omi);
