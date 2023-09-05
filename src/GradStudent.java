@@ -40,4 +40,9 @@ public class GradStudent extends Student{
     {
         return super.toString() + " Office: " + getOffice() + " Office Hours: " + getOfficeHours();
     }
+
+    public String getSerialData()
+    {
+        return super.getSerialData() + "," + getOffice() + "," + getOfficeHours();
+    }
 }

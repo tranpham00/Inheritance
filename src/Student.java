@@ -1,4 +1,4 @@
-public class Student {
+public class Student implements StringSerializable{
     private String name;
     private double gpa;
     private String id;
@@ -43,5 +43,10 @@ public class Student {
     public String toString()
     {
         return "Name: " + getName() + " GPA: " + getGPA() + " ID: " + getID();
+    }
+
+    public String getSerialData()
+    {
+        return getName() + "," + getGPA() + "," + getID();
     }
 }

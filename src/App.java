@@ -22,7 +22,7 @@ public class App {
 
         for(int i = 0; i < roster.size(); i++)
         {
-            System.out.println(roster.get(i).toString());
+            System.out.println(roster.get(i).getSerialData());
         }
     }
 }
