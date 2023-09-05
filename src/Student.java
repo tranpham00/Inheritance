@@ -1,9 +1,9 @@
 public class Student {
     private String name;
     private double gpa;
-    private int id;
+    private String id;
 
-    public Student(String n, double g, int i)
+    public Student(String n, double g, String i)
     {
         name = n;
         gpa = g;
@@ -30,12 +30,12 @@ public class Student {
         gpa = g;
     }
 
-    public int getID()
+    public String getID()
     {
         return id;
     }
 
-    public void setID(int i)
+    public void setID(String i)
     {
         id = i;
     }

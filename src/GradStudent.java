@@ -2,7 +2,7 @@ public class GradStudent extends Student{
     private String office;
     private String officeHours;
 
-    public GradStudent(String n, double g, int i, String o, String oH)
+    public GradStudent(String n, double g, String i, String o, String oH)
     { 
         super(n, g, i);
         office = o;
@@ -27,6 +27,12 @@ public class GradStudent extends Student{
     public void setOfficeHours(String oH)
     {
         officeHours = oH;
+    }
+
+    // @override
+    public void setID(String i)
+    {
+        super.setID("GR-" + i);
     }
 
     // @override
