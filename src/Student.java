@@ -1,4 +1,4 @@
-public class Student implements StringSerializable{
+abstract class Student implements StringSerializable{
     private String name;
     private double gpa;
     private String id;
@@ -42,11 +42,13 @@ public class Student implements StringSerializable{
 
     public String toString()
     {
-        return "Name: " + getName() + " GPA: " + getGPA() + " ID: " + getID();
+        return "Name: " + getName() + " GPA: " + getGPA() + " ID: " + getID() + " Degree: " + getDegree();
     }
 
     public String getSerialData()
     {
-        return getName() + "," + getGPA() + "," + getID();
+        return getName() + "," + getGPA() + "," + getID() + "," + getDegree();
     }
+
+    abstract String getDegree();
 }

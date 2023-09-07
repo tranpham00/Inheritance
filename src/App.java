@@ -2,8 +2,8 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Student cameron = new Student("cameron", 3.4, "0123");
-        Student omi = new Student("omi", 3.5, "1234");
+        Student cameron = new UnderGradStudent("cameron", 3.4, "0123");
+        Student omi = new UnderGradStudent("omi", 3.5, "1234");
         GradStudent andy = new GradStudent("andy", 4.0, "2345", "RK012", "12:00-2:30");
         GradStudent harbert = new GradStudent("harbert", 2.8, "3456", "RK011", "2:30-4:00");
         

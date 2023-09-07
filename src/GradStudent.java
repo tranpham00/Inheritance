@@ -38,11 +38,16 @@ public class GradStudent extends Student{
     // @override
     public String toString()
     {
-        return super.toString() + " Office: " + getOffice() + " Office Hours: " + getOfficeHours();
+        return super.toString() + " Office: " + getOffice() + " Office Hours: " + getOfficeHours() + " Degree: " + getDegree();
     }
 
     public String getSerialData()
     {
-        return super.getSerialData() + "," + getOffice() + "," + getOfficeHours();
+        return super.getSerialData() + "," + getOffice() + "," + getOfficeHours() + "," + getDegree();
+    }
+
+    public String getDegree()
+    {
+        return "graduate degree";
     }
 }
